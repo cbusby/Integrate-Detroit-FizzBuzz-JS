@@ -1,5 +1,8 @@
 function fizzbuzz(number) {
-    return 1;
+    if (number === 3) {
+      return "fizz";
+    }
+    return number;
   }
 
   
